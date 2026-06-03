@@ -1,3 +1,5 @@
 nomes = ["Ana", "Carlos", "Maria", "Joao"]
-print("Maria" in nomes)
-print("Nome encontrado!")
+if ("Maria" in nomes):
+    print("Nome encontrado!")
+else:
+    print("Nome não encontrado!")
