@@ -1,5 +1,5 @@
-nome = "Joao"
-idade = 26
+nome = "Joao" #str
+idade = 26 #int
 altura = 1.73 #float
 aluno = False
 
