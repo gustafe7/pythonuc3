@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a&ostada#y6hcfy-e2-c0wa1ac4dvj@v@bolk!53xm71+vs4x0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'idade',
 ]
 
 ROOT_URLCONF = 'exemplo1_aula.urls'
